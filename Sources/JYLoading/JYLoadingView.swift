@@ -22,7 +22,6 @@ public struct JYLoadingView: View {
     public var body: some View {
         
         ProgressView()
-        
             .progressViewStyle(CircularProgressViewStyle())
             .frame(width: 100, height: 100)
             .scaleEffect(5)
